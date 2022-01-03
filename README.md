@@ -106,7 +106,7 @@ Uber already has data about pickups in major cities. Your objective is to create
 
 
 <!-- PROJECT 4  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR.ipynb" target="_blank">Project 4: Disaster_tweets</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR.ipynb" target="_blank">Project 4: Disaster Tweets</a>
 
 Project description: https://www.kaggle.com/c/nlp-getting-started
 
