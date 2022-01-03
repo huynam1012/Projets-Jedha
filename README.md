@@ -15,7 +15,6 @@
     <a href="hhttps://github.com/huynam1012/Projets-Jedha"><strong>Explore the 6 projects for 6 blocks »</strong></a>
     <br />
     <br />
-    ·
   </p>
 </p>
 
