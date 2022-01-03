@@ -134,7 +134,7 @@ Your mission is to put this model into production by building an API. To succeed
     provide a /predict endpoint,
     provide a small documentation for the developer team at the index of your website.
 
-In the following link, we describe the technical expectations: https://wine-hnt.herokuapp.com/
+In the following link, we describe the technical expectations: https://wine-hnt.herokuapp.com
 
 <!-- PROJECT 6  -->
 ## <a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/Presentation_Huy%20Nam%20Tran%2C%20Said%20%2C%20Amir%20%2C%20Matthieu%20Verrecchia.pdf" target="_blank">Project 6: Start-up Prediction</a>
