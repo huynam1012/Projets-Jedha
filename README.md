@@ -33,7 +33,9 @@
 <br />
 
 <!-- PROJECT 1  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%201_Kayak/Plan_your_trip_with_Kayak_Huy-Nam%20TRAN_FR.ipynb" target="_blank">Project 1: Kayak</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/tree/main/Bloc%201_Kayak" target="_blank">Project 1: Kayak</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%201_Kayak/Plan_your_trip_with_Kayak_Huy-Nam%20TRAN_FR.ipynb" target="_blank">Link to notebook</a>
 
 Project 🚧
 
@@ -59,7 +61,9 @@ As the project has just started, your team doesn't have any data that can be use
 
 
 <!-- PROJECT 2  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%202_Speed%20dating/01-Project_speed_dating_Huy-Nam%20TRAN_FR.ipynb" target="_blank">Project 2: Speed Dating</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/tree/main/Bloc%202_Speed%20dating" target="_blank">Project 2: Speed Dating</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%202_Speed%20dating/01-Project_speed_dating_Huy-Nam%20TRAN_FR.ipynb" target="_blank">Link to notebook</a>
 
 Challenge description
 
@@ -81,7 +85,11 @@ For today, you can start exploring the dataset with pandas to extract some stati
 
 
 <!-- PROJECT 3  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR.ipynb" target="_blank">Project 3: UBER Pickups</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/tree/main/Bloc%203_Machine%20learning/Uber" target="_blank">Project 3: UBER Pickups</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR_1.ipynb" target="_blank">Part 1: Exploratory Data Analysis</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR_2.ipynb" target="_blank">Part 2: Machine Learning</a>
 
 Company's Description 📇
 Uber is one of the most famous startup in the world. It started as a ride-sharing application for people who couldn't afford a taxi. Now, Uber expanded its activities to Food Delivery with Uber Eats, package delivery, freight transportation and even urban transportation with Jump Bike and Lime that the company funded.
@@ -105,13 +113,17 @@ Uber already has data about pickups in major cities. Your objective is to create
 
 
 <!-- PROJECT 4  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR.ipynb" target="_blank">Project 4: Disaster Tweets</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/tree/main/Bloc%204_Deep%20learning" target="_blank">Project 4: Disaster Tweets</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%204_Deep%20learning/Disaster_Huy-Nam%20TRAN_FR.ipynb" target="_blank">Link to notebook</a>
 
 Project description: https://www.kaggle.com/c/nlp-getting-started
 
     
 <!-- PROJECT 5  -->
-## <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%205_Deployment/Test_Endpoint_Huy-Nam_TRAN.ipynb" target="_blank">Project 5: Wine-o-meter</a>
+## <a href="https://github.com/huynam1012/Projets-Jedha/tree/main/Bloc%205_Deployment" target="_blank">Project 5: Wine-o-meter</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%205_Deployment/Test_Endpoint_Huy-Nam_TRAN.ipynb" target="_blank">Prediction example</a>
 
 Machine Learning in production
 
@@ -137,6 +149,10 @@ In the following link, we describe the technical expectations: https://wine-hnt.
 
 <!-- PROJECT 6  -->
 ## <a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/Presentation_Huy%20Nam%20Tran%2C%20Said%20%2C%20Amir%20%2C%20Matthieu%20Verrecchia.pdf" target="_blank">Project 6: Start-up Prediction</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet%20final_EDA_ML.ipynb" target="_blank">Exploratory Data Analysis and Machine Learning</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet_final_DL.ipynb" target="_blank">Deep Learning</a>
 
 This is the final project as a Jedha student. The object of the project is development an application that allows to predict the success of startups based on some characteristics.
 
