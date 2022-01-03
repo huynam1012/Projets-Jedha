@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>The win-o-meter API</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Add the following line to style your pages with your own CSS -->
+      <link rel="stylesheet" href="/static/style.css">
+  </head>
+
+  <body>
+    <div class="centered">
+      <h1>The win-o-meter API</h1>
+        <p>Welcome to the win-o-meter API.</p>
+      
+      <div>
+        <h2>Endpoints</h2>
+          <blockquote>
+            /predict, method POST.
+            <p>
+              This endpoint allows you to predict the quality of the wine with a score from 0 to 10 based on physicochemical input values.
+            </p>
+          </blockquote>      
+        
+        <h3>How to request this endpoint?</h3>
+          <blockquote>
+            <p>The expected input is a JSON with an input key followed by an array of <code>inputs</code>.</p>
+              <p>
+                <br>{input: [x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11]} is an array of values in the following order:
+                <pre>
+                  <br>x1: fixed acidity
+                  <br>x2: volatile acidity
+                  <br>x3: citric acid
+                  <br>x4: residual sugar
+                  <br>x5: chlorides
+                  <br>x6: free sulfur dioxide
+                  <br>x7: total sulfur dioxide
+                  <br>x8: density
+                  <br>x9: pH
+                  <br>x10: sulfates
+                  <br>x11: alcohol
+                </pre>
+              </p>
+          </blockquote> 
+                
+
+        <h3>Example</h3>
+          <blockquote>
+            <p>        
+              JSON input example: 
+                <pre>
+                  <code>
+                    {
+                    "input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]
+                    }
+                  </code>
+                </pre>        
+            </p>
+          </blockquote>
+            
+          <blockquote>
+            <p>
+              It returns a output like so:
+                <pre>
+                  <code>
+                    {
+                      "prediction": [6]
+                    }
+                  </code>
+                </pre>
+            </p>
+          </blockquote>      
+        
+        <h3>Run request with terminal</h3>
+          <blockquote>
+            <p>
+              Run the terminal of Linux, Mac, and Window then run a request example using <code>curl</code>:
+                <pre>
+                  <code>
+                    $ curl -i -H "Content-Type: application/json" -X POST -d "{\"input\": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}" https://wine-hnt.herokuapp.com/predict
+                  </code>
+                </pre>
+            </p>
+          </blockquote>
+            
+          <blockquote>
+            <p>
+              Expected output:
+              <pre>
+                <code>
+                  {
+                    "prediction": [6, 6]
+                  }
+                </code>
+              </pre>
+            </p>
+          </blockquote>        
+      </div>
+    </div>
+  </body>
+</html>
