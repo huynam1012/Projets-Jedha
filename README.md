@@ -158,6 +158,8 @@ In the following link, we describe the technical expectations: https://wine-hnt.
 
 <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping_company_info/Projet%20final_scraping_companies_info.ipynb" target="_blank">Part 4: Scrape Companies information</a>
 
+<a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/full%20video%20app.mp4" target="_blank">Part 5: Demo Dashboard by Power BI</a>
+
 This is the final project as a Jedha student. The object of the project is development an application that allows to predict the success of startups based on some characteristics. Authors: Huy-Nam Tran, Matthieu Verrecchia, Said Soufyan and Amir Benseddik.
 
 In the following link, we describe the technical expectations: https://predictstartup.herokuapp.com
