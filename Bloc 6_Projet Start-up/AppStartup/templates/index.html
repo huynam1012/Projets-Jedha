@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>StartInvest - API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add the following line to style your pages with your own CSS -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body >
+<div class="container">
+  <h1>StartInvest - API</h1>
+  <p>Welcome to the StartInvest - API.</p>
+  <h2>Endpoints</h2>
+  <div>
+    <ul>
+      <li class="endpoint">
+        <code>/predict</code>, method POST
+        <p>
+          Predict the success of a Startup based on these features :
+		  ol>
+          <li>Funding Total usd: the amount of the funding</li>
+          <li>Rounds: Raises capital through rounds </li>
+		   <li>Creation date</li>          
+		   <li>First funding date</li>          
+		   <li>Last funding date</li>  
+          
+        </ol>	  
+		 
+        </p>
+        <p>
+          The expected input is a JSON with an <code>input</code> key followed by an array of inputs. Each inputs is an
+          array of samples in the following order:
+        <ol>
+		  <li>Funding Total usd : an integer ex 10000 </li>
+		  <li>Rounds : an Integer, ex 5 </li>
+          <li>Creation date (format : YYYY-MM-dd, ex 2001-01-11 </li>          
+		   <li>First funding date (format : YYYY-MM-dd, ex 2002-10-10 </li>          
+		   <li>Last funding date (format : YYYY-MM-dd, ex 2004-09-11 </li>        
+          
+        </ol>
+        </p>
+        <p>
+          JSON input example:
+          <pre>
+            <code>
+        {
+          "input": [[38730470,1,"2011-01-01","2011-01-01","2011-01-01"],[7998800,2,"2001-01-01","2008-07-10","2008-11-12"]]
+        }
+            </code>
+          </pre>
+        </p>
+        <p>
+          Request example using <code>curl</code>:
+          <pre>
+            <code>			
+				curl --globoff -i -H "Content-Type: application/json" -X POST -d "{\"input\": [[38730470,1,\"2011-01-01\",\"2011-01-01\",\"2011-01-01\"],[7998800,2,\"2001-01-01\",\"2008-07-10\",\"2008-11-12\"]]}" https://predictstartup.herokuapp.com/predict
+			</code>
+          </pre>
+        </p>
+        <p>
+          Expected output:
+          <pre>
+            <code>
+        {
+          "prediction": ['failure', 'success']
+        }
+            </code>
+          </pre>
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+</body>
+
+</html>

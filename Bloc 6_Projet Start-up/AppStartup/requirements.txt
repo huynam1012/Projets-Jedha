@@ -1,0 +1,12 @@
+Flask==2.0.2
+
+Jinja2==3.0.2
+joblib
+numpy
+pandas==1.3.4
+requests==2.26.0
+scikit-learn
+gunicorn==20.1.0
+
+
+

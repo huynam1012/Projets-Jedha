@@ -1,0 +1,18 @@
+code {
+  word-wrap: break-word;
+}
+
+.container {
+  max-width: 50%;
+  margin: auto;
+}
+
+.endpoint {
+  list-style: none;
+}
+
+
+
+body {
+background-images: url("/images/trophee.jpg");
+}
