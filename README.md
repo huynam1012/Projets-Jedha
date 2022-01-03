@@ -150,11 +150,15 @@ In the following link, we describe the technical expectations: https://wine-hnt.
 <!-- PROJECT 6  -->
 ## <a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/Presentation_Huy%20Nam%20Tran%2C%20Said%20%2C%20Amir%20%2C%20Matthieu%20Verrecchia.pdf" target="_blank">Project 6: Start-up Prediction</a>
 
-<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet%20final_EDA_ML.ipynb" target="_blank">Exploratory Data Analysis and Machine Learning</a>
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet%20final_EDA_ML.ipynb" target="_blank">Part 1: Exploratory Data Analysis and Machine Learning</a>
 
-<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet_final_DL.ipynb" target="_blank">Deep Learning</a>
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/EDA_ML_DL/Projet_final_DL.ipynb" target="_blank">Part 2: Deep Learning</a>
 
-This is the final project as a Jedha student. The object of the project is development an application that allows to predict the success of startups based on some characteristics.
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping%20Twitter/Projet_final_scraping_twitter.ipynb" target="_blank"> Part 3: Scrape Twitter</a>
+
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping_company_info/Projet%20final_scraping_companies_info.ipynb" target="_blank">Part 4: Scrape Companies information</a>
+
+This is the final project as a Jedha student. The object of the project is development an application that allows to predict the success of startups based on some characteristics. Authors: Huy-Nam Tran, Matthieu Verrecchia, Said Soufyan and Amir Benseddik.
 
 In the following link, we describe the technical expectations: https://predictstartup.herokuapp.com
 
