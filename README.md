@@ -145,7 +145,7 @@ Your mission is to put this model into production by building an API. To succeed
     provide a /predict endpoint,
     provide a small documentation for the developer team at the index of your website.
 
-In the following link, we describe the technical expectations: https://wine-hnt.herokuapp.com
+ The details are described in the following link: https://wine-hnt.herokuapp.com
 
 <!-- PROJECT 6  -->
 ## <a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/Presentation_Huy%20Nam%20Tran%2C%20Said%20%2C%20Amir%20%2C%20Matthieu%20Verrecchia.pdf" target="_blank">Project 6: Start-up Prediction</a>
@@ -156,7 +156,7 @@ In the following link, we describe the technical expectations: https://wine-hnt.
 
 <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping%20Twitter/Projet_final_scraping_twitter.ipynb" target="_blank"> Part 3: Scrape Twitter</a>
 
-<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping_company_info/Projet%20final_scraping_companies_info.ipynb" target="_blank">Part 4: Scrape Companies information</a>
+<a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%206_Projet%20Start-up/Scraping_company_info/Projet%20final_scraping_companies_info.ipynb" target="_blank">Part 4: Scrape Companies Information</a>
 
 <a href="https://raw.githubusercontent.com/huynam1012/Projets-Jedha/main/Bloc%206_Projet%20Start-up/full%20video%20app.mp4" target="_blank">Part 5: Demo Dashboard by Power BI</a>
 
