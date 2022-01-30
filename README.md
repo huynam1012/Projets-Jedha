@@ -90,6 +90,8 @@ For today, you can start exploring the dataset with pandas to extract some stati
 
 <a href="https://github.com/huynam1012/Projets-Jedha/blob/main/Bloc%203_Machine%20learning/Uber/01-Uber_Pickups_Huy-Nam_TRAN_FR_2.ipynb" target="_blank">Part 2: Machine Learning</a>
 
+The demo of the project can be seen in the following link: https://share.streamlit.io/huynam1012/uber_deploy-/main
+
 Company's Description 📇
 Uber is one of the most famous startup in the world. It started as a ride-sharing application for people who couldn't afford a taxi. Now, Uber expanded its activities to Food Delivery with Uber Eats, package delivery, freight transportation and even urban transportation with Jump Bike and Lime that the company funded.
 
