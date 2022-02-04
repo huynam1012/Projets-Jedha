@@ -46,29 +46,6 @@ GROUP BY customer_id;
 
 -- 3. What was the first item from the menu purchased by each customer?
 
-/*The  ROW_NUMBER() is a window function that returns a sequential number 
-for each row, starting from 1 for the first row.
-
-A PARTITION BY clause is used to partition rows of table into groups. It is useful when we have to 
-perform a calculation on individual rows of a group using other rows of that group.
-    It is always used inside OVER() clause.
-    The partition formed by partition clause are also known as Window.
-    This clause works on windows functions only. Like- RANK(), LEAD(), LAG() etc.
-    If this clause is omitted in OVER() clause, then whole table is considered as a single partition.*/
-
-/*SELECT
-    sales.customer_id,
-    menu.product_name,
-    ROW_NUMBER() OVER(
-     PARTITION BY sales.customer_id
-      ORDER BY 
-        sales.order_date,  
-        sales.product_id
-    ) AS item_order
-    FROM `huy-nam_tran`.sales
-    JOIN `huy-nam_tran`.menu
-    ON sales.product_id = menu.product_id;*/
-
 WITH cte_order AS (
     SELECT
         sales.customer_id,
