@@ -46,31 +46,3 @@ INSERT INTO members
 VALUES
   ('A', '2021-01-07'),
   ('B', '2021-01-09');
-
-
-DROP TABLE IF EXISTS `sales_countries`;
-CREATE TABLE sales_countries (
-    year INTEGER,
-    country VARCHAR(20),
-    product VARCHAR(20),
-    profit INTEGER
-);
-
-INSERT INTO sales_countries
-    (year, country, product, profit)
-VALUES
-    ('2000', 'Finland', 'Computer', '1500'),
-    ('2000', 'Finland', 'Phone', '100'),
-    ('2001', 'Finland', 'Phone', '10'),
-    ('2000', 'India', 'Calculator', '75'),
-    ('2000', 'India', 'Calculator', '75'),
-    ('2000', 'India', 'Computer', '1200'),
-    ('2000', 'USA', 'Calculator', '75'),
-    ('2000', 'USA', 'Computer', '1500'),
-    ('2001', 'USA', 'Calculator', '50'),
-    ('2001', 'USA', 'Computer', '1500'),
-    ('2001', 'USA', 'Computer', '1200'),
-    ('2001', 'USA', 'TV', '150'),
-    ('2001', 'USA', 'TV', '100')
-    ;
-
