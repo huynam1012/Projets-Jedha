@@ -90,7 +90,7 @@ The final members table captures the ```join_date``` when a ```customer_id``` jo
 
  </details>
  
- Code: https://github.com/huynam1012/Projets-Jedha/blob/main/Projet%20MySQL/create-table_TRAN.sql
+ Code: https://github.com/huynam1012/Projets-Jedha/blob/main/Projet%20MySQL/Danny's%20Diner_create-table_TRAN.sql
 
 ## 🧙‍♂️ Case Study Questions
 
@@ -109,4 +109,4 @@ The final members table captures the ```join_date``` when a ```customer_id``` jo
 
 ## 🚀 Solutions
 
-The solution can be found here: https://github.com/huynam1012/Projets-Jedha/blob/main/Projet%20MySQL/query-mysql_TRAN.sql
+The solution can be found here: https://github.com/huynam1012/Projets-Jedha/blob/main/Projet%20MySQL/Danny's%20Diner_query-mysql_TRAN.sql
