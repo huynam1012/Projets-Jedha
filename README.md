@@ -12,7 +12,7 @@
     Class : dsmft-paris-14<br />
     Final exam's date : Janvier, 19th 2022
     <br />
-    <a href="hhttps://github.com/huynam1012/Projets-Jedha"><strong>Explore the 6 projects for 6 blocks »</strong></a>
+    <a href="hhttps://github.com/huynam1012/Projets-Jedha"><strong>Explore the 6 projects for 6 blocks and project MySQL »</strong></a>
     <br />
     <br />
   </p>
