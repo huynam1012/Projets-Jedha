@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <a href="https://github.com/huynam1012/Projets-Jedha">
+   <a href="https://www.jedha.co/">
     <img src="https://yt3.ggpht.com/a/AATXAJx-EbvNy-M6OTC3IRISPg-tJMRKzAXl_B8EmZTf=s900-c-k-c0xffffffff-no-rj-mo" alt="Logo" width="100" height="100">
   </a>
   <h3 align="center">Huy-Nam TRAN's projects</h3>
