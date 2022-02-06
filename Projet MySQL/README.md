@@ -2,6 +2,13 @@
 
 # 🍜 Danny's Diner
 
+<p align="center">
+   <a href="https://8weeksqlchallenge.com/case-study-1/">
+    <img src="https://user-images.githubusercontent.com/48564899/132266712-12289168-8359-4c6f-9340-65a0f20a0a7e.png" width="350" height="350">
+  </a>
+</p>
+
+
 ## 📕 Table Of Contents
 * 🛠️ [Problem Statement](#problem-statement)
 * 📂 [Dataset](#dataset)
