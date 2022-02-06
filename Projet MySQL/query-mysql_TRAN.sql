@@ -8,6 +8,10 @@
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 -- 5. Which item was the most popular for each customer?
 -- 6. Which item was purchased first by the customer after they became a member?
+-- 7. Which item was purchased just before the customer became a member?
+-- 8. What is the total items and amount spent for each member before they became a member?
+-- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+-- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
 
 -- 1. What is the total amount each customer spent at the restaurant?
@@ -111,7 +115,7 @@ FROM (SELECT customer_id, product_id, count(product_id) AS order_count,
         RANK() OVER(PARTITION BY  customer_id ORDER BY count(product_id) DESC) AS 'rank_count'
 	FROM sales
 	GROUP BY customer_id,product_id
-	ORDER BY customer_id) as inner_table
+	ORDER BY customer_id) AS inner_table
 JOIN menu USING(product_id)
 where rank_count=1
 ORDER BY customer_id ASC;
@@ -149,14 +153,14 @@ WHERE first_order=1;
 -- 7. Which item was purchased just before the customer became a member?
 WITH before_member AS(
     SELECT customer_id, product_name, order_date, rank() 
-        OVER(PARTITION BY customer_id ORDER BY order_date DESC) as first_order
+        OVER(PARTITION BY customer_id ORDER BY order_date DESC) AS first_order
     FROM sales JOIN menu USING(product_id)
     JOIN members USING(customer_id)
     WHERE order_date>=join_date
 )
 
 SELECT * FROM before_member
-where first_order=1;
+WHERE first_order=1;
 --Result:
 +──────────────+───────────────+─────────────+──────────────+
 | customer_id  | product_name  | order_date  | first_order  |
@@ -208,5 +212,38 @@ GROUP BY customer_id;
 +──────────────+───────────────+
 
 
+-- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, 
+		--not just sushi - how many points do customer A and B have at the end of January?
+WITH days_cte AS(
+    SELECT members.customer_id, members.join_date,sales.order_date,sales.product_id,
+        (sales.order_date)-(members.join_date) AS days_diff
+    FROM sales 
+    INNER JOIN members ON sales.customer_id = members.customer_id)
 
-
+SELECT days_cte.customer_id, 
+    SUM(
+        CASE 
+                WHEN days_cte.product_id =1 
+                    THEN menu.price*20
+                    WHEN days_diff 
+                        BETWEEN 0 and 6 AND days_diff >=0 
+                    THEN menu.price*20
+                WHEN days_diff < 0 
+                    THEN menu.price * 10
+                WHEN days_cte.product_id =1 
+                    THEN menu.price*20
+                WHEN days_cte.order_date >= "2021-02-01" 
+                    THEN menu.price*0
+            ELSE menu.price*10 
+            END) 
+            AS total_points 
+FROM days_cte
+LEFT JOIN MENU ON days_cte.product_id = menu.product_id
+GROUP BY customer_id;
+--Result:
++──────────────+────────────────+
+| customer_id  | total_points   |
++──────────────+────────────────+
+| A            | 1370           |
+| B            | 820            |
++──────────────+────────────────+
