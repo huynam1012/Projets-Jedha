@@ -1,6 +1,6 @@
-# Project SQL
+# Projects SQL
 
-# 🍜 Danny's Diner
+# Project 1: 🍜 Danny's Diner
 
 <p align="center">
    <a href="https://8weeksqlchallenge.com/case-study-1/">
